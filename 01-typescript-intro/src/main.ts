@@ -4,8 +4,9 @@ import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
 // import { name, age, isValid } from './bases/01-types'
 //import { bulbasur } from './bases/02-objects'
-import { charmander } from './bases/03-classes.ts'
+//import { charmander } from './bases/03-classes.ts'
 
+import { charmander } from './bases/04-inyection.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
