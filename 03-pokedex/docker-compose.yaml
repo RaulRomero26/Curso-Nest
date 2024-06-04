@@ -1,6 +1,5 @@
-
 version: '3'
-
+ 
 services:
   db:
     image: mongo:5
@@ -10,4 +9,7 @@ services:
     environment:
       MONGODB_DATABASE: nest-pokemon
     volumes:
-      - ./mongo:/data/db
+      - mongo:/data/db
+ 
+volumes:
+  mongo:
